@@ -32,12 +32,12 @@ function Mesh() {
     mesh.current.rotation.z += delta * 0.3;
   });
 
-  const texture_1 = useLoader(TextureLoader, "assets/coin_1.png");
-  const texture_2 = useLoader(TextureLoader, "assets/coin_2.png");
-  const texture_3 = useLoader(TextureLoader, "assets/coin_3.png");
-  const texture_4 = useLoader(TextureLoader, "assets/coin_4.png");
-  const texture_5 = useLoader(TextureLoader, "assets/coin_5.png");
-  const texture_6 = useLoader(TextureLoader, "assets/coin_6.png");
+  const texture_1 = useLoader(TextureLoader, "assets/coin1.png");
+  const texture_2 = useLoader(TextureLoader, "assets/coin2.png");
+  const texture_3 = useLoader(TextureLoader, "assets/coin3.png");
+  const texture_4 = useLoader(TextureLoader, "assets/coin4.png");
+  const texture_5 = useLoader(TextureLoader, "assets/coin5.png");
+  const texture_6 = useLoader(TextureLoader, "assets/coin6.png");
 
   return (
     <mesh ref={mesh}>
